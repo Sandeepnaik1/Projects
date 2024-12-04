@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,89 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #e0f7fa;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.get-verified-btn {
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.get-verified-btn:hover {
+  background-color: #f4511e;
+}
+
+.how-it-works {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.how-it-works h2 {
+  font-size: 1.5rem;
+  color: #424242;
+}
+
+.how-it-works p {
+  color: #616161;
+  font-size: 1rem;
+  margin: 10px 0 30px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.step {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+.step:nth-child(odd) {
+  background-color: #e0f7fa;
+}
+.step img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 1rem;
+  color: #424242;
 }
